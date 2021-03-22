@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mat_Hidden_ScannerEffect
+  m_Shader: {fileID: 4800000, guid: 7b7696fced0c98d45a7e5324e233f4e1, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _LeadSharp: 1
+    - _ScanDistance: 0
+    - _ScanWidth: 1
+    m_Colors:
+    - _HBarColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _LeadColor: {r: 1, g: 0, b: 0, a: 0}
+    - _MidColor: {r: 0.27792454, g: 1, b: 0, a: 0}
+    - _TrailColor: {r: 1, g: 1, b: 1, a: 0}
+    - _WorldSpaceScannerPos: {r: 2.149909, g: 0.000000014901161, b: 1.5418264, a: 0}
+    - _vectorA: {r: 867.0337, g: -1019.18976, b: -684.33734, a: 0}
+    - _vectorB: {r: 723.5118, g: -220.91232, b: -1298.6692, a: 0}
+    - _vectorC: {r: -1224.0403, g: -220.89175, b: -843.6499, a: 0}
+    - _vectorD: {r: -1080.5184, g: -1019.1692, b: -229.31812, a: 0}
+  m_BuildTextureStacks: []
